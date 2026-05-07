@@ -1,0 +1,25 @@
+{
+  "name": "ia-implementador-90-dias",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "- `system_prompt.md` — A \"personalidade\" e instruções da Bia. **Edite este arquivo** pra colocar o nome da clínica, endereço, horário. - `chatbot.js` — Código Node.js que conecta com a API do Claude.",
+  "main": "chatbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricabook/ia-implementador-90-dias.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricabook/ia-implementador-90-dias/issues"
+  },
+  "homepage": "https://github.com/ricabook/ia-implementador-90-dias#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.1",
+    "dotenv": "^17.4.2"
+  }
+}
